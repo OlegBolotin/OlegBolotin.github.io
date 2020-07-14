@@ -349,6 +349,7 @@ dd {
 /*##############################cryptocurrency_price##########################*/
 .cryptocurrency_price {
   max-width: 1600px;
+  margin: 0 auto;
 }
 
 .container_cryptocurrency_price {
@@ -626,6 +627,7 @@ dd {
     flex-direction: column;
     justify-content: center;
     padding-top: 2%;
+    margin: 0 auto;
   }
 
   .text_and_img_top_news {
@@ -635,6 +637,11 @@ dd {
 
   .img_top_news {
     max-width: 100%;
+  }
+
+  .container_top_news {
+    border: 1px solid white;
+    box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 10px #ff00de, 0 0 10px #ff00de, 0 0 10px #ff00de, 0 0 10px #ff00de, 0 0 10px #ff00de;
   }
 
   .title_top_news {
@@ -650,6 +657,7 @@ dd {
     display: flex;
     justify-content: center;
     max-width: 1600px;
+    margin: 0 auto;
   }
 
   .container_news_block {
@@ -990,23 +998,24 @@ dd {
     max-width: 1600px;
     display: flex;
     flex-direction: column;
-    padding-top: 2%;
-    padding-left: 9%;
-    padding-right: 9%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 2%;
   }
 
   .container_top_news {
-    justify-content: center;
-    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 10px #ff00de, 0 0 10px #ff00de, 0 0 10px #ff00de, 0 0 10px #ff00de, 0 0 10px #ff00de;
   }
 
   .text_and_img_top_news {
-    justify-content: center;
-    text-align: center;
+    border-radius: 10px;
   }
 
   .img_top_news {
     max-width: 100%;
+    border-radius: 10px;
   }
 
   .title_top_news {
@@ -1237,7 +1246,7 @@ dd {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 0.5%;
+    padding-top: 1%;
   }
 
   .container_footer {
@@ -1362,11 +1371,14 @@ dd {
   /*#################################top_news################################*/
   .top_news {
     display: flex;
+    max-width: 991px;
+  }
+
+  .container_news_block {
+    width: 100%;
+    padding-top: 2%;
     flex-direction: column;
     justify-content: center;
-    padding-top: 2%;
-    padding-left: 7%;
-    padding-right: 7%;
   }
 
   .img_top_news {
@@ -1446,6 +1458,8 @@ dd {
   .container_news_block {
     display: flex;
     flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .first_three {
@@ -3353,6 +3367,23 @@ dd {
   }
 }
 
+@media (max-width: 385px) {
+  .nav__bar {
+    width: 50px;
+  }
+
+  .main {
+    width: 100%;
+    width: calc(100% - 30px);
+    margin-left: 30px;
+  }
+
+  .nav__trigger {
+    left: 12px;
+    padding: 8px 0;
+  }
+}
+
 @media (max-width: 375px) {
   .header_list a {
     font-size: 1.6em;
@@ -3364,6 +3395,28 @@ dd {
 
   .p_welcome {
     margin-top: -0.4em;
+  }
+
+  .nav__bar {
+    width: 50px;
+  }
+
+  .main {
+    width: 100%;
+    width: calc(100% - 50px);
+    margin-left: 50px;
+  }
+
+  .nav__trigger {
+    left: 12px;
+    padding: 8px 0;
+  }
+}
+
+@media (max-width: 372px) {
+  .title_top_news {
+    font-size: 0.9em;
+    line-height: 13px;
   }
 }
 
@@ -3457,13 +3510,6 @@ dd {
       font-weight: 900;
       font-family: 'Jost', sans-serif;
     }
-}
-
-@media (max-width: 372px) {
-  .title_top_news {
-    font-size: 0.9em;
-    line-height: 13px;
-  }
 }
 
 @media (max-width: 335px) {
