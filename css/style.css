@@ -3175,21 +3175,21 @@ dd {
     display: flex;
     flex-direction: column;
     padding-top: 2%;
-    margin-left: 3%;
+    margin-right: 7%;
   }
 
   .second_three {
     display: flex;
     flex-direction: column;
     padding-top: 2%;
-    margin-left: 3%;
+    margin-right: 7%;
   }
 
   .third_three {
     display: flex;
     flex-direction: column;
     padding-top: 2%;
-    margin-left: 3%;
+    margin-right: 7%;
   }
 
   /*---------------------------------first_block--------------------------------*/
