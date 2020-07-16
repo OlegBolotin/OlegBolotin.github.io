@@ -404,7 +404,6 @@ dd {
 }
 
 /*---------------------------------first_block--------------------------------*/
-.first_block {}
 
 .first_block:hover {
   -moz-box-shadow: 0 0 10px #000;
@@ -424,10 +423,6 @@ dd {
 }
 
 /*---------------------------------second_block-------------------------------*/
-.second_block_news {
-  max-width: 370px;
-}
-
 .second_block_news:hover {
   /* -moz-box-shadow: 0 0 35px #ffffff;
   -webkit-box-shadow: 0 0 35px #ffffff; */
@@ -448,10 +443,6 @@ dd {
 }
 
 /*----------------------------------third_block-------------------------------*/
-.third_block {
-  max-width: 370px;
-}
-
 .third_block_img {
   padding-right: 3%;
 }
@@ -464,10 +455,6 @@ dd {
 }
 
 /*---------------------------------fourth_block-------------------------------*/
-.fourth_block {
-  max-width: 370px;
-}
-
 .fourth_block_img {
   padding-right: 3%;
 }
@@ -480,10 +467,6 @@ dd {
 }
 
 /*-------------------------------fifth_block----------------------------------*/
-.fifth_block {
-  max-width: 370px;
-}
-
 .fifth_block_img {
   padding-right: 3%;
 }
@@ -496,10 +479,6 @@ dd {
 }
 
 /*-------------------------------sixth_block----------------------------------*/
-.sixth_block {
-  max-width: 370px;
-}
-
 .sixth_block_img {
   padding-right: 3%;
 }
@@ -512,10 +491,6 @@ dd {
 }
 
 /*-------------------------------seventh_block--------------------------------*/
-.seventh_block {
-  max-width: 370px;
-}
-
 .seventh_block_img {
   padding-right: 3%;
 }
@@ -528,10 +503,6 @@ dd {
 }
 
 /*-------------------------------eighth_block---------------------------------*/
-.eighth_block {
-  max-width: 370px;
-}
-
 .eighth_block_img {
   padding-right: 3%;
 }
@@ -544,10 +515,6 @@ dd {
 }
 
 /*-----------------------------ninth_block-----------------------------------*/
-.ninth_block {
-  max-width: 370px;
-}
-
 .ninth_block_img {
   padding-right: 3%;
 }
@@ -679,13 +646,13 @@ dd {
 
   .first_block_img {
     width: 370px;
-    max-height: 200px;
-    ;
+    height: 200px;
     padding-right: 3%;
   }
 
   .first_block_p {
     color: white;
+    padding-left: -0.5%;
   }
 
   .first_content_text {
@@ -699,12 +666,13 @@ dd {
 
   .second_block_img {
     width: 370px;
-    max-height: 200px;
+    height: 200px;
     padding-right: 3%;
   }
 
   .second_block_p {
     color: white;
+    padding-left: -0.5%;
   }
 
   .second_content_text {
@@ -718,12 +686,13 @@ dd {
 
   .third_block_img {
     width: 370px;
-    max-height: 200px;
+    height: 200px;
     padding-right: 3%;
   }
 
   .third_block_p {
     color: white;
+    padding-left: -0.5%;
   }
 
   .third_content_text {
@@ -737,12 +706,13 @@ dd {
 
   .fourth_block_img {
     width: 370px;
-    max-height: 200px;
+    height: 200px;
     padding-right: 3%;
   }
 
   .fourth_block_p {
     color: white;
+    padding-left: -0.5%;
   }
 
   .fourth_content_text {
@@ -756,12 +726,13 @@ dd {
 
   .fifth_block_img {
     width: 370px;
-    max-height: 200px;
+    height: 200px;
     padding-right: 3%;
   }
 
   .fifth_block_p {
     color: white;
+    padding-left: -0.5%;
   }
 
   .fifth_content_text {
@@ -775,12 +746,13 @@ dd {
 
   .sixth_block_img {
     width: 370px;
-    max-height: 200px;
+    height: 200px;
     padding-right: 3%;
   }
 
   .sixth_block_p {
     color: white;
+    padding-left: -0.5%;
   }
 
   .sixth_content_text {
@@ -794,12 +766,13 @@ dd {
 
   .seventh_block_img {
     width: 370px;
-    max-height: 200px;
+    height: 200px;
     padding-right: 3%;
   }
 
   .seventh_block_p {
     color: white;
+    padding-left: -0.5%;
   }
 
   .seventh_content_text {
@@ -813,12 +786,13 @@ dd {
 
   .eighth_block_img {
     width: 370px;
-    max-height: 200px;
+    height: 200px;
     padding-right: 3%;
   }
 
   .eighth_block_p {
     color: white;
+    padding-left: -0.5%;
   }
 
   .eighth_content_text {
@@ -832,12 +806,13 @@ dd {
 
   .ninth_block_img {
     width: 370px;
-    max-height: 200px;
+    height: 200px;
     padding-right: 3%;
   }
 
   .ninth_block_p {
     color: white;
+    padding-left: -0.5%;
   }
 
   .ninth_content_text {
@@ -3547,7 +3522,6 @@ dd {
 }
 
 @media (max-width: 330px) {
-
   /*####################################footer##################################*/
   .footer {
     display: flex;
