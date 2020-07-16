@@ -1866,10 +1866,21 @@ dd {
   }
 }
 
+@media (min-width: 740px) {
+  .title_top_news {
+    font-size: 1.2em;
+    line-height: 22px;
+    padding-bottom: 0.5%;
+    padding-left: 1%;
+  }
+}
+
 @media (max-width: 740px) {
   .title_top_news {
     font-size: 1.2em;
-    line-height: 18px;
+    line-height: 22px;
+    padding-bottom: 1%;
+    padding-left: 2%;
   }
 }
 
