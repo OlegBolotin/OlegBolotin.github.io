@@ -342,24 +342,6 @@ dd {
   opacity: 0.5;
 }
 
-.tag {
-  color: white;
-  border: 1px solid black;
-  padding-bottom: 5%;
-}
-
-.tag span {
-  border: 1px solid white;
-}
-
-.tag a {
-  color: white;
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-top: 2%;
-  padding-bottom: 10%;
-}
-
 .content {
   max-width: 1400px;
 }
@@ -468,6 +450,7 @@ dd {
   .blog_content {
     max-width: 1600px;
     margin: 0 auto;
+    margin-left: 5%;
   }
 
   .blog_content_container {
@@ -491,135 +474,144 @@ dd {
 
   .tags_blocks {
     max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .tag_1 {
+    margin-right: 10px;
+    margin-bottom: 3.5px;
+  }
+
+  .span_tag_1 {
     border: 1px solid white;
     border-radius: 6px;
     white-space: pre;
-    margin-left: 1%;
   }
 
-  .tag_1 a {
-    color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
-    padding-bottom: 5%;
-    color: white;
-  }
-
-  .tag_1:hover {
+  .span_tag_1:hover {
     background-color: #008dcc;
-    transition: .4s ease-out;
+    transition: .2s ease-out;
+  }
+
+  .span_tag_1 a {
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
   }
 
   .tag_2 {
+    margin-right: 10px;
+    margin-bottom: 3.5px;
+  }
+
+  .span_tag_2 {
     border: 1px solid white;
     border-radius: 6px;
     white-space: pre;
-    margin-left: 1%;
   }
 
-  .tag_2 a {
-    color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    color: white;
-  }
-
-  .tag_2:hover {
+  .span_tag_2:hover {
     background-color: #008dcc;
-    transition: .4s ease-out;
+    transition: .2s ease-out;
+  }
+
+  .span_tag_2 a {
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
   }
 
   .tag_3 {
+    margin-right: 10px;
+    margin-bottom: 3.5px;
+  }
+
+  .span_tag_3 {
     border: 1px solid white;
     border-radius: 6px;
     white-space: pre;
-    margin-left: 1%;
   }
 
-  .tag_3 a {
-    color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    color: white;
-  }
-
-  .tag_3:hover {
+  .span_tag_3:hover {
     background-color: #008dcc;
-    transition: .4s ease-out;
+    transition: .2s ease-out;
+  }
+
+  .span_tag_3 a {
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
   }
 
   .tag_4 {
+    margin-right: 10px;
+    margin-bottom: 3.5px;
+  }
+
+  .span_tag_4 {
     border: 1px solid white;
     border-radius: 6px;
     white-space: pre;
-    margin-left: 1%;
   }
 
-  .tag_4 a {
-    color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    color: white;
-  }
-
-  .tag_4:hover {
+  .span_tag_4:hover {
     background-color: #008dcc;
-    transition: .4s ease-out;
+    transition: .2s ease-out;
+  }
+
+  .span_tag_4 a {
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
   }
 
   .tag_5 {
+    margin-right: 10px;
+    margin-bottom: 3.5px;
+  }
+
+  .span_tag_5 {
     border: 1px solid white;
     border-radius: 6px;
     white-space: pre;
-    margin-left: 1%;
   }
 
-  .tag_5 a {
-    color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    color: white;
-  }
-
-  .tag_5:hover {
+  .span_tag_5:hover {
     background-color: #008dcc;
-    transition: .4s ease-out;
+    transition: .2s ease-out;
+  }
+
+  .span_tag_5 a {
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
   }
 
   .tag_6 {
+    margin-right: 10px;
+    margin-bottom: 3.5px;
+  }
+
+  .span_tag_6 {
     border: 1px solid white;
     border-radius: 6px;
     white-space: pre;
-    margin-left: 1%;
-    margin-top: 5%;
   }
 
-  .tag_6 a {
-    color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    color: white;
-  }
-
-  .tag_6:hover {
+  .span_tag_6:hover {
     background-color: #008dcc;
-    transition: .4s ease-out;
+    transition: .2s ease-out;
   }
 
+  .span_tag_6 a {
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  
   .content {
     margin: 0 auto;
     max-width: 800px;
@@ -976,6 +968,7 @@ dd {
   .blog_content {
     max-width: 1600px;
     margin: 0 auto;
+    margin-left: 5%;
   }
 
   .blog_content_container {
@@ -986,6 +979,7 @@ dd {
     justify-content: center;
     padding-left: 7%;
     padding-right: 7%;
+    margin: 0 auto;
   }
 
   .blog_title {
@@ -999,133 +993,141 @@ dd {
 
   .tags_blocks {
     max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .tag_1 {
+    margin-right: 10px;
+    margin-bottom: 3.5px;
+  }
+
+  .span_tag_1 {
     border: 1px solid white;
     border-radius: 6px;
     white-space: pre;
-    margin-left: 1%;
   }
 
-  .tag_1 a {
-    color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
-    padding-bottom: 5%;
-    color: white;
-  }
-
-  .tag_1:hover {
+  .span_tag_1:hover {
     background-color: #008dcc;
-    transition: .4s ease-out;
+    transition: .2s ease-out;
+  }
+
+  .span_tag_1 a {
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
   }
 
   .tag_2 {
+    margin-right: 10px;
+    margin-bottom: 3.5px;
+  }
+
+  .span_tag_2 {
     border: 1px solid white;
     border-radius: 6px;
     white-space: pre;
-    margin-left: 1%;
   }
 
-  .tag_2 a {
-    color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    color: white;
-  }
-
-  .tag_2:hover {
+  .span_tag_2:hover {
     background-color: #008dcc;
-    transition: .4s ease-out;
+    transition: .2s ease-out;
+  }
+
+  .span_tag_2 a {
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
   }
 
   .tag_3 {
+    margin-right: 10px;
+    margin-bottom: 3.5px;
+  }
+
+  .span_tag_3 {
     border: 1px solid white;
     border-radius: 6px;
     white-space: pre;
-    margin-left: 1%;
   }
 
-  .tag_3 a {
-    color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    color: white;
-  }
-
-  .tag_3:hover {
+  .span_tag_3:hover {
     background-color: #008dcc;
-    transition: .4s ease-out;
+    transition: .2s ease-out;
+  }
+
+  .span_tag_3 a {
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
   }
 
   .tag_4 {
+    margin-right: 10px;
+    margin-bottom: 3.5px;
+  }
+
+  .span_tag_4 {
     border: 1px solid white;
     border-radius: 6px;
     white-space: pre;
-    margin-left: 1%;
   }
 
-  .tag_4 a {
-    color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    color: white;
-  }
-
-  .tag_4:hover {
+  .span_tag_4:hover {
     background-color: #008dcc;
-    transition: .4s ease-out;
+    transition: .2s ease-out;
+  }
+
+  .span_tag_4 a {
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
   }
 
   .tag_5 {
+    margin-right: 10px;
+    margin-bottom: 3.5px;
+  }
+
+  .span_tag_5 {
     border: 1px solid white;
     border-radius: 6px;
     white-space: pre;
-    margin-left: 1%;
   }
 
-  .tag_5 a {
-    color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    color: white;
-  }
-
-  .tag_5:hover {
+  .span_tag_5:hover {
     background-color: #008dcc;
-    transition: .4s ease-out;
+    transition: .2s ease-out;
+  }
+
+  .span_tag_5 a {
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
   }
 
   .tag_6 {
+    margin-right: 10px;
+    margin-bottom: 3.5px;
+  }
+
+  .span_tag_6 {
     border: 1px solid white;
     border-radius: 6px;
     white-space: pre;
-    margin-left: 1%;
-    margin-top: 5%;
   }
 
-  .tag_6 a {
-    color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    color: white;
-  }
-
-  .tag_6:hover {
+  .span_tag_6:hover {
     background-color: #008dcc;
-    transition: .4s ease-out;
+    transition: .2s ease-out;
+  }
+
+  .span_tag_6 a {
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
   }
 
   .content {
@@ -1378,158 +1380,148 @@ dd {
     margin-left: 2%;
   }
 
-  .tag {
-    color: white;
-    border: 1px solid black;
-    padding-bottom: 5%;
+  .tags_blocks {
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin-left: 2%;
   }
 
-  .tag span {
-    border: 1px solid white;
+  .tag_1 {
+    margin-right: 10px;
+    margin-bottom: 3.5px;
   }
 
-  .tag a {
+  .span_tag_1 {
+    border: 1px solid white;
+    border-radius: 6px;
+    white-space: pre;
+  }
+
+  .span_tag_1:hover {
+    background-color: #008dcc;
+    transition: .2s ease-out;
+  }
+
+  .span_tag_1 a {
     color: white;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-top: 2%;
-    padding-bottom: 10%;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .tag_2 {
+    margin-right: 10px;
+    margin-bottom: 3.5px;
+  }
+
+  .span_tag_2 {
+    border: 1px solid white;
+    border-radius: 6px;
+    white-space: pre;
+  }
+
+  .span_tag_2:hover {
+    background-color: #008dcc;
+    transition: .2s ease-out;
+  }
+
+  .span_tag_2 a {
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .tag_3 {
+    margin-right: 10px;
+    margin-bottom: 3.5px;
+  }
+
+  .span_tag_3 {
+    border: 1px solid white;
+    border-radius: 6px;
+    white-space: pre;
+  }
+
+  .span_tag_3:hover {
+    background-color: #008dcc;
+    transition: .2s ease-out;
+  }
+
+  .span_tag_3 a {
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .tag_4 {
+    margin-right: 10px;
+    margin-bottom: 3.5px;
+  }
+
+  .span_tag_4 {
+    border: 1px solid white;
+    border-radius: 6px;
+    white-space: pre;
+  }
+
+  .span_tag_4:hover {
+    background-color: #008dcc;
+    transition: .2s ease-out;
+  }
+
+  .span_tag_4 a {
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .tag_5 {
+    margin-right: 10px;
+    margin-bottom: 3.5px;
+  }
+
+  .span_tag_5 {
+    border: 1px solid white;
+    border-radius: 6px;
+    white-space: pre;
+  }
+
+  .span_tag_5:hover {
+    background-color: #008dcc;
+    transition: .2s ease-out;
+  }
+
+  .span_tag_5 a {
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .tag_6 {
+    margin-right: 10px;
+    margin-bottom: 3.5px;
+  }
+
+  .span_tag_6 {
+    border: 1px solid white;
+    border-radius: 6px;
+    white-space: pre;
+  }
+
+  .span_tag_6:hover {
+    background-color: #008dcc;
+    transition: .2s ease-out;
+  }
+
+  .span_tag_6 a {
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
   }
 
   .content {
     max-width: 1300px;
-  }
-
-  .tags_blocks {
-    max-width: 800px;
-  }
-
-  .tag_1 {
-    border: 1px solid white;
-    border-radius: 6px;
-    white-space: pre;
-    margin-left: 1%;
-  }
-
-  .tag_1 a {
-    color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
-    padding-bottom: 5%;
-    color: white;
-  }
-
-  .tag_1:hover {
-    background-color: #008dcc;
-    transition: .4s ease-out;
-  }
-
-  .tag_2 {
-    border: 1px solid white;
-    border-radius: 6px;
-    white-space: pre;
-    margin-left: 1%;
-  }
-
-  .tag_2 a {
-    color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    color: white;
-  }
-
-  .tag_2:hover {
-    background-color: #008dcc;
-    transition: .4s ease-out;
-  }
-
-  .tag_3 {
-    border: 1px solid white;
-    border-radius: 6px;
-    white-space: pre;
-    margin-left: 1%;
-  }
-
-  .tag_3 a {
-    color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    color: white;
-  }
-
-  .tag_3:hover {
-    background-color: #008dcc;
-    transition: .4s ease-out;
-  }
-
-  .tag_4 {
-    border: 1px solid white;
-    border-radius: 6px;
-    white-space: pre;
-    margin-left: 1%;
-  }
-
-  .tag_4 a {
-    color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    color: white;
-  }
-
-  .tag_4:hover {
-    background-color: #008dcc;
-    transition: .4s ease-out;
-  }
-
-  .tag_5 {
-    border: 1px solid white;
-    border-radius: 6px;
-    white-space: pre;
-    margin-left: 1%;
-  }
-
-  .tag_5 a {
-    color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    color: white;
-  }
-
-  .tag_5:hover {
-    background-color: #008dcc;
-    transition: .4s ease-out;
-  }
-
-  .tag_6 {
-    border: 1px solid white;
-    border-radius: 6px;
-    white-space: pre;
-    margin-left: 1%;
-    margin-top: 5%;
-  }
-
-  .tag_6 a {
-    color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    color: white;
-  }
-
-  .tag_6:hover {
-    background-color: #008dcc;
-    transition: .4s ease-out;
   }
 
   .first_sentence {
